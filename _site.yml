@@ -1,0 +1,14 @@
+name: "emmaweb"
+title: "Emma's science website"
+description: |
+  Emma's science website
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Current"
+      href: current.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
